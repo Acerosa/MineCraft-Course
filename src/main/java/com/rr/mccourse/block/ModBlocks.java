@@ -8,6 +8,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
 import java.util.function.Supplier;
@@ -17,6 +18,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> COPPER_BLOCK = register("copper_block",
             ()-> new Block(AbstractBlock.Properties.of(Material.METAL)
                     .strength(3f, 10f).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> COPPER_ORE = register("copper_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(3f, 10f)
+                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
     public static void register() { }
 

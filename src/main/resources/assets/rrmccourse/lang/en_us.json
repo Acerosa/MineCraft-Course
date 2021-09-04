@@ -1,5 +1,7 @@
 {
   "item.rrmccourse.copper_ingot": "Copper Ingot",
+  "item.rrmccourse.copper_wire": "Copper Wire",
   "block.rrmccourse.copper_block": "Copper Block",
+  "block.rrmccourse.copper_ore": "Copper Ore",
   "itemGroup.courseTab": "RR McCourse Tab"
 }
