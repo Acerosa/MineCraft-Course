@@ -6,6 +6,8 @@ import com.rr.mccourse.util.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -26,11 +28,19 @@ import static com.rr.mccourse.RRMCCourseMod.MOD_ID;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MOD_ID)
-public class RRMCCourseMod
-{
+public class RRMCCourseMod {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "rrmccourse";
+
+    public static final ItemGroup RRMcCOURSE_TAB = new ItemGroup("RR Mc course tab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.COPPER_WIRE.get());
+        }
+    };
+
+
     public RRMCCourseMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

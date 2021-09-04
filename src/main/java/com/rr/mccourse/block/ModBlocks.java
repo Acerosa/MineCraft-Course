@@ -1,4 +1,5 @@
 package com.rr.mccourse.block;
+import com.rr.mccourse.RRMCCourseMod;
 import com.rr.mccourse.util.Registration;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -23,9 +24,7 @@ public class ModBlocks {
     {
         RegistryObject<T> toReturn = Registration.BLOCKS.register(name, block);
         Registration.ITEMS.register(name, () -> new BlockItem(toReturn.get(),
-                new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+                new Item.Properties().tab(RRMCCourseMod.RRMcCOURSE_TAB)));
         return toReturn;
     }
-
-
 }
