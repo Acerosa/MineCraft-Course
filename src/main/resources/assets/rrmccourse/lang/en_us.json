@@ -4,5 +4,10 @@
   "block.rrmccourse.copper_block": "Copper Block",
   "block.rrmccourse.copper_ore": "Copper Ore",
   "item.rrmccourse.coppered_apple": "Coppered Apple",
+  "item.rrmccourse.copper_shovel": "Copper Shovel",
+  "item.rrmccourse.copper_axe": "Copper Axe",
+  "item.rrmccourse.copper_pickaxe": "Copper Pickaxe",
+  "item.rrmccourse.copper_hoe": "Copper Hoe",
+  "item.rrmccourse.copper_sword": "Copper Sword",
   "itemGroup.courseTab": "RR McCourse Tab"
 }
