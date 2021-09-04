@@ -22,5 +22,9 @@ public class ModItems {
             Registration.ITEMS.register("copper_wire",
                     () -> new Item(new Item.Properties().tab(RRMCCourseMod.RRMcCOURSE_TAB)));
 
+    public static final RegistryObject<Item> COPPERED_APPLE =
+            Registration.ITEMS.register("coppered_apple",
+                    () -> new CopperedApple());
+
     public static void register() { }
 }
