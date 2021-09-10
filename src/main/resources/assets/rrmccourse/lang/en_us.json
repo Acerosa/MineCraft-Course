@@ -9,5 +9,11 @@
   "item.rrmccourse.copper_pickaxe": "Copper Pickaxe",
   "item.rrmccourse.copper_hoe": "Copper Hoe",
   "item.rrmccourse.copper_sword": "Copper Sword",
+
+  "item.rrmccourse.copper_helmet": "Copper Helmet",
+  "item.rrmccourse.copper_chestplate": "Copper Chestplate",
+  "item.rrmccourse.copper_legging": "Copper Leggings",
+  "item.rrmccourse.copper_boots": "Copper Boots",
+
   "itemGroup.courseTab": "RR McCourse Tab"
 }

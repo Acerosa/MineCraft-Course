@@ -5,7 +5,6 @@ import com.rr.mccourse.item.ModItems;
 import com.rr.mccourse.util.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,7 +32,7 @@ public class RRMCCourseMod {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "rrmccourse";
 
-    public static final ItemGroup RRMcCOURSE_TAB = new ItemGroup("RR Mc course tab") {
+    public static final ItemGroup RRMcCOURSE_TAB = new ItemGroup("RR MC course tab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.COPPER_WIRE.get());
